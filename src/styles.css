@@ -17,7 +17,7 @@ body {
     width: 160px;
     height: 160px;
     /* background: cornflowerblue; */
-    position: relative;
+    position: relative ;
 }
 
 .outer {
@@ -49,3 +49,18 @@ body {
     font-weight: 600px;
     color : #555;
 }
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472 ;
+    stroke-dashoffset: 0 ;
+}
+
+svg {
+    position: absolute;
+    top : 5;
+    left : 50
+}
+
