@@ -4,3 +4,19 @@
     font-family: "",sans-serif;
     box-sizing: border-box;
 }
+
+body {
+    background: #e3edf7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    width: 160px;
+    height: 160px;
+    /* background: cornflowerblue; */
+    position: relative;
+ 
+}
